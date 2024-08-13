@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(66, 31, 31);
+        }
+
+        .box {
+            width: 35vw;
+            height: 80vh;
+            margin: 50px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: bisque;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 10px;
+        }
+
+        .relationship span {
+            margin: 5px;
+            padding: 5px;
+
+            border-radius: 15px;
+            background-color: rgb(231, 192, 152);
+            font-style: italic;
+
+        }
+
+        .relationship {
+            padding: 15px;
+        }
+
+        .content h2 {
+            font-style: italic;
+        }
+
+        .content p {
+            font-size: 17px;
+            font-style: italic;
+        }
+
+        .footer {
+            text-align: center;
+
+        }
+
+        .footer button {
+            padding: 10px;
+            border-radius: 15px;
+            background-color: rgb(231, 192, 152);
+            color: rgb(146, 60, 60);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="image">
+                <img width=530vw src="image cake.png" alt="hello plz w8">
+            </div>
+
+            <div class="relationship">
+                <span>Roomate</span>
+                <span>Bestfriend</span>
+                <span>Buddy</span>
+            </div>
+
+            <div class="content">
+                <h2>
+                    HAPPY BIRTHDAY
+                </h2>
+                <p>
+                    Happy Birthday to my amazing best friend! Your friendship is a treasure, and I cherish every moment
+                    of laughter, support, and adventures we’ve shared. You’re more than just a friend, you’re family.
+                    May your birthday be as fantastic and special as you are, filled with joy, love, and endless happy
+                    moments. Here’s to creating more unforgettable memories and looking forward to a wonderful year
+                    ahead! Best wishes on your special day!
+                </p>
+            </div>
+
+
+            <div>
+                <div class="footer">
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
